@@ -1,11 +1,14 @@
-import Mainpage from './pages/Mainpage'
+import Mainpage from "./pages/Mainpage";
+import {RouterProvider} from 'react-router-dom'
+import {router} from "./router/Index";
 
 function App() {
   return (
     <>
-    <Mainpage/>
+      {/* <RouterProvider router={router}/> */}
+      <Mainpage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
