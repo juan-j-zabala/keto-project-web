@@ -5,8 +5,8 @@ import {router} from "./router/Index";
 function App() {
   return (
     <>
-      {/* <RouterProvider router={router}/> */}
-      <Mainpage />
+      <RouterProvider router={router}/>
+      {/* <Mainpage /> */}
     </>
   );
 }
