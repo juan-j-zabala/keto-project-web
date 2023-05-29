@@ -95,7 +95,7 @@ export const objectcssgrid = [
       generalcss:
       "flex justify-center items-center rounded-[3px] shadow-lg shadow-black bg-amber-400 col-start-[15] col-end-[28] row-start-[12] row-end-[15]",
       screensm: "sm:col-start-11 sm:col-end-[19] sm:row-start-[11] sm:row-end-[15]",
-      screenmd: "",
+      screenmd: "", 
       screenlg: "",
       screenxl:
         "xl:rounded-xl xl:m-3 xl:col-start-[17] xl:col-end-[20] xl:row-start-6 xl:row-end-[9]",

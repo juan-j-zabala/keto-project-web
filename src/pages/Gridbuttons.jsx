@@ -1,7 +1,7 @@
 import Buttonofgrid from "../components/Buttonofgrid";
-import { objectcssgrid } from "../data/Datagrid";
+// import { objectcssgrid } from "../data/Datagrid";
 
-const Gridbuttons = () => {
+const Gridbuttons = ({objectcssgrid}) => {
   return (
     <>
       {objectcssgrid.map((data) => {
@@ -9,14 +9,15 @@ const Gridbuttons = () => {
           <Buttonofgrid
             key={data.id}
             id={data.id}
-            generalcss={data.generalcss}
-            screenxl={data.screenxl}
-            screenlg={data.screenlg}
-            screenmd={data.screenmd}
-            screensm={data.screensm}
-            cssopen={data.cssopen}
-            title={data.title}
-            text={data.Text}
+            css={data.css}
+            // generalcss={data.generalcss}
+            // screenxl={data.screenxl}
+            // screenlg={data.screenlg}
+            // screenmd={data.screenmd}
+            // screensm={data.screensm}
+            // cssopen={data.cssopen}
+            // title={data.title}
+            // text={data.Text}
           />
         );
       })}

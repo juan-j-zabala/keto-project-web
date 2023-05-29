@@ -12,6 +12,7 @@ import Gridbuttons from "../pages/Gridbuttons";
 import Glosariocarpet from "../components/Glosariocarpet";
 import Glosariocarpetamobil from "../components/Glosariocarpetamobil";
 import Choose from "../components/Choose";
+import {objectdatagrids} from '../data/Datagrids'
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -27,17 +28,22 @@ export const router = createBrowserRouter(
           </>
         }
       />
-      <Route
-        path="/tema"
-        element={
-          <>
-            <Glosario />
-            <Gridbuttons />
-            <Glosariomobil />
-            <Fullnavbar />
-          </>
-        }
-      />
+      {objectdatagrids.map((data) => {
+        return (
+          <Route
+          key={data.id}
+          path={data.url}
+          element={
+            <>
+              <Glosario />
+              <Gridbuttons objectcssgrid={data.objectcssgrid} />
+              <Glosariomobil />
+              <Fullnavbar />
+            </>
+          }
+        />            
+        )
+      })}
       <Route path="/glosario" element={<Glosario />}>
         <Route path="/glosario/carpet" element={<Glosariocarpet />} />
       </Route>

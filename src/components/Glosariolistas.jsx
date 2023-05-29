@@ -2,6 +2,7 @@ import {motion} from 'framer-motion'
 import { useState } from "react";
 import Svgimg from "../components/Svgimg";
 import arrowdown from "../assets/arrow-down-square-svgrepo-com.svg";
+import { Link } from 'react-router-dom';
 
 const Glosariolistas = ({data}) => {
   const [selectedId, setSelectedId] = useState(false);
@@ -47,12 +48,12 @@ const Glosariolistas = ({data}) => {
               </motion.p>
             </motion.div>
           </motion.div>
-          <a href="" className={`z-0 bg-black col-start-1 col-end-[29] row-start-4 row-end-7 m-1 rounded-xl flex justify-center items-center text-white ${selectedId ? "": "hidden"}`}>{data.palabra1}</a>
-          <a href="" className={`z-0 bg-black col-start-1 col-end-[29] row-start-7 row-end-[10] m-1 rounded-xl flex justify-center items-center text-white ${selectedId ? "": "hidden"}`}>{data.palabra2}</a>
-          <a href="" className={`z-0 bg-black col-start-1 col-end-[29] row-start-[10] row-end-[13] m-1 rounded-xl flex justify-center items-center text-white ${selectedId ? "" : "hidden" }`}>{data.palabra3}</a>
-          <a href="" className={`z-0 bg-black col-start-1 col-end-[29] row-start-[13] row-end-[16] m-1 rounded-xl flex justify-center items-center text-white ${selectedId ? "" : "hidden" }`}>{data.palabra4}</a>
-          <a href="" className={`z-0 bg-black col-start-1 col-end-[29] row-start-[16] row-end-[19] m-1 rounded-xl flex justify-center items-center text-white ${selectedId ? "" : "hidden" }`}>{data.palabra5}</a>
-          <a href="" className={`z-0 bg-black col-start-1 col-end-[29] row-start-[19] row-end-[22] m-1 rounded-xl flex justify-center items-center text-white ${selectedId ? "" : "hidden" }`}>{data.palabra6}</a>
+          <Link to="/tema" className={`z-0 bg-black col-start-1 col-end-[29] row-start-4 row-end-7 m-1 rounded-xl flex justify-center items-center text-white ${selectedId ? "": "hidden"}`}>{data.palabra1}</Link>
+          <Link to="/tema2" className={`z-0 bg-black col-start-1 col-end-[29] row-start-7 row-end-[10] m-1 rounded-xl flex justify-center items-center text-white ${selectedId ? "": "hidden"}`}>{data.palabra2}</Link>
+          <Link to="" className={`z-0 bg-black col-start-1 col-end-[29] row-start-[10] row-end-[13] m-1 rounded-xl flex justify-center items-center text-white ${selectedId ? "" : "hidden" }`}>{data.palabra3}</Link>
+          <Link to="" className={`z-0 bg-black col-start-1 col-end-[29] row-start-[13] row-end-[16] m-1 rounded-xl flex justify-center items-center text-white ${selectedId ? "" : "hidden" }`}>{data.palabra4}</Link>
+          <Link to="" className={`z-0 bg-black col-start-1 col-end-[29] row-start-[16] row-end-[19] m-1 rounded-xl flex justify-center items-center text-white ${selectedId ? "" : "hidden" }`}>{data.palabra5}</Link>
+          <Link to="" className={`z-0 bg-black col-start-1 col-end-[29] row-start-[19] row-end-[22] m-1 rounded-xl flex justify-center items-center text-white ${selectedId ? "" : "hidden" }`}>{data.palabra6}</Link>
         </motion.div>
     </>
   )

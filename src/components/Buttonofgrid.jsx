@@ -6,14 +6,15 @@ import arrowdown from "../assets/arrow-down-square-svgrepo-com.svg";
 import Svgimg from "./Svgimg";
 
 const Buttonofgrid = ({
-  generalcss,
-  screenxl,
-  screenlg,
-  screenmd,
-  screensm,
-  cssopen,
-  title,
-  text,
+  // generalcss,
+  // screenxl,
+  // screenlg,
+  // screenmd,
+  // screensm,
+  // cssopen,
+  // title,
+  // text,
+  css,
   id,
 }) => {
   const [seletid, setSeletid] = useState(null);
@@ -21,14 +22,14 @@ const Buttonofgrid = ({
   return (
     <>
       <motion.div
-        className={`${generalcss} ${screenxl} ${screenlg} ${screenmd} ${screensm}`}
+        className={`${css.generalcss} ${css.screenxl} ${css.screenlg} ${css.screenmd} ${css.screensm}`}
         layoutId={id}
         whileTap={{ scale: 0.9 }}
         whileHover={{ scale: 1.1 }}
         transition={{ type: "spring", stiffness: 500, damping: 30 }}
         onClick={() => setSeletid(id)}
       >
-        {title}
+        {css.title}
       </motion.div>
       <AnimatePresence>
         {seletid ? (
@@ -43,7 +44,7 @@ const Buttonofgrid = ({
              lg:rounded-xl lg:p-3
             bg-neutral-950 col-start-1 col-end-[29] row-start-4 row-end-[22] p-2 text-white overflow-auto"
             >
-              {text} Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              {css.text} Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Temporibus porro neque voluptates amet. Vero rem voluptatum
               laudantium officiis aperiam blanditiis dolorum aliquid ea
               consectetur fugiat ex cum accusantium magni numquam doloremque
@@ -105,14 +106,14 @@ const Buttonofgrid = ({
               fuga possimus delectus rem aspernatur obcaecati voluptatibus.
               Assumenda maxime consectetur inventore?
             </motion.p>
-            <motion.div className={`${cssopen}`}>
+            <motion.div className={`${css.cssopen}`}>
               <motion.h1
                 className="
                 lg:mx-3 lg:rounded-lg lg:col-start-1 lg:col-end-8 lg:row-start-2 lg:row-end-[11]
                 bg-neutral-950 col-start-1 col-end-[14] row-start-2 row-end-[11] flex justify-center items-center mx-1 rounded-[3px] text-white
               "
               >
-                {title}
+                {css.title}
               </motion.h1>
               <motion.button
                 className="
