@@ -30,8 +30,8 @@ const Buttonmodalmobil = () => {
             <motion.div
               layoutId={isopen}
               className="grid grid-rows-[repeat(21,1fr)] grid-cols-[repeat(28,1fr)] gap-2 z-0
-               bg-neutral-950 shadow-lg shadow-black col-start-2 col-end-[28] row-start-3 row-end-[21] rounded-[2px]
-              sm:bg-neutral-950 sm:col-start-2 sm:col-end-[28] sm:row-start-3 sm:row-end-[19]
+               bg-neutral-950 shadow-lg shadow-black col-start-2 col-end-[28] row-start-3 row-end-[22] mb-[2px] rounded-[2px]
+              sm:bg-neutral-950 sm:col-start-2 sm:col-end-[28] sm:row-start-3 sm:row-end-[22]
               lg:hidden"
             >
               <motion.button

@@ -7,7 +7,7 @@ export const objectcssnavbar = [
     modalopencssxl:
       "xl:col-start-[20] xl:col-end-[23] xl:row-start-3 xl:row-end-[12] xl:my-3 xl:mr-3 xl:rounded-xl",
     modalopencsslg:
-      "lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[19] lg:rounded-[2px] lg:gap-1",
+      "lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[22] z-0 lg:rounded-[2px] lg:gap-1",
     modalopencsssm: "",
     modalopencss: "bg-neutral-950 max-lg:hidden",
     dataimg: {
@@ -51,7 +51,7 @@ export const objectcssnavbar = [
     modalopencssxl:
       "xl:col-start-[20] xl:col-end-[23] xl:row-start-3 xl:row-end-[12] xl:my-3 xl:mr-3 xl:rounded-xl",
     modalopencsslg:
-      "lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[19] lg:rounded-[2px] gap-1",
+      "lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[22] z-0 lg:rounded-[2px] gap-1",
     modalopencsssm: "",
     modalopencss: "bg-neutral-950 max-lg:hidden",
     dataimg: {
@@ -95,7 +95,7 @@ export const objectcssnavbar = [
     modalopencssxl:
       "xl:col-start-[20] xl:col-end-[23] xl:row-start-3 xl:row-end-[12] xl:my-3 xl:mr-3 xl:rounded-xl",
     modalopencsslg:
-      "lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[19] lg:rounded-[2px] gap-1",
+      "lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[22] z-0 lg:rounded-[2px] gap-1",
     modalopencsssm: "",
     modalopencss: "bg-neutral-950 max-lg:hidden",
     dataimg: {
@@ -139,7 +139,7 @@ export const objectcssnavbar = [
     modalopencssxl:
       "xl:col-start-[20] xl:col-end-[23] xl:row-start-3 xl:row-end-[12] xl:my-3 xl:mr-3 xl:rounded-xl",
     modalopencsslg:
-      "lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[19] lg:rounded-[2px] gap-1",
+      "lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[22] z-0 lg:rounded-[2px] gap-1",
     modalopencsssm: "",
     modalopencss: "bg-neutral-950 max-lg:hidden",
     dataimg: {
@@ -183,7 +183,7 @@ export const objectcssnavbar = [
     modalopencssxl:
       "xl:col-start-[20] xl:col-end-[23] xl:row-start-3 xl:row-end-[12] xl:my-3 xl:mr-3 xl:rounded-xl",
     modalopencsslg:
-      "lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[19] lg:rounded-[2px] gap-1",
+      "lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[22] z-0 lg:rounded-[2px] gap-1",
     modalopencsssm: "",
     modalopencss: "bg-neutral-950 max-lg:hidden",
     dataimg: {

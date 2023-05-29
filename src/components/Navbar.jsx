@@ -4,7 +4,7 @@ import Buttonsmodals from "./Buttonsmodals"
 function Navbar() {
   return (
     <>
-        <Buttonsmodals hidden={"max-lg:hidden z-0"}/>
+        <Buttonsmodals hidden={"max-lg:hidden"}/>
         <Buttonmodalmobil/>
         {/* <div className="bg-neutral-950 flex justify-center items-center col-start-[8] col-end-[10] row-start-1 row-end-3 my-4 text-white max-lg:hidden">home</div> */}
         {/* <div className="bg-neutral-950 flex justify-center items-center col-start-[11] col-end-[13] row-start-1 row-end-3 my-4 text-white max-lg:hidden">temario</div> */}

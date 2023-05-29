@@ -15,19 +15,38 @@ import Choose from "../components/Choose";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
+    <Route path="/" element={<Mainpage />} errorElement={<Errorpage />}>
       <Route
         path="/"
-        element={<Mainpage />}
-        errorElement={<Errorpage />}
-      >
-        <Route path="/" element={<><Choose/><Glosario/><Glosariomobil/><Fullnavbar/></>}/>
-        <Route path="/tema" element={<><Glosario/><Gridbuttons/><Glosariomobil/><Fullnavbar/></>}/>
-        <Route path="/glosario" element={<Glosario/>}>
-          <Route path="/glosario/carpet" element={<Glosariocarpet/>}/>
-        </Route>
-        <Route path="/glosariomobil" element={<Glosariomobil/>}>
-          <Route path="/glosariomobil/carpet" element={<Glosariocarpetamobil/>}/>
-        </Route>
-      </Route>    
+        element={
+          <>
+            <Choose />
+            <Glosario />
+            <Glosariomobil />
+            <Fullnavbar />
+          </>
+        }
+      />
+      <Route
+        path="/tema"
+        element={
+          <>
+            <Glosario />
+            <Gridbuttons />
+            <Glosariomobil />
+            <Fullnavbar />
+          </>
+        }
+      />
+      <Route path="/glosario" element={<Glosario />}>
+        <Route path="/glosario/carpet" element={<Glosariocarpet />} />
+      </Route>
+      <Route path="/glosariomobil" element={<Glosariomobil />}>
+        <Route
+          path="/glosariomobil/carpet"
+          element={<Glosariocarpetamobil />}
+        />
+      </Route>
+    </Route>
   )
 );

@@ -34,7 +34,7 @@ const Buttonofgrid = ({
         {seletid ? (
           <motion.div
             className="grid grid-rows-[repeat(21,1fr)] grid-cols-[repeat(28,1fr)] col-start-2 col-end-[28] row-start-3 row-end-[21] rounded-[3px] z-0 bg-neutral-950 shadow-lg shadow-black
-            sm:col-start-2 sm:col-end-[29] sm:row-start-3 sm:row-end-[19]
+            sm:col-start-2 sm:col-end-[28] sm:row-start-3 sm:row-end-[19]
             xl:col-start-5 xl:col-end-[23] xl:row-start-3 xl:row-end-[12] xl:my-3 xl:mx-3 xl:rounded-xl"
             layoutId={seletid}
           >
