@@ -5,7 +5,7 @@ import { objectcssnavbar } from "../data/Datanavbar";
 const Buttonsmodals = ({hidden=null}) => {
   return (
     <>
-      <AnimatePresence mode="wait" initial={false}>
+      <AnimatePresence  initial={false}>
         {objectcssnavbar.map((data) => {
           return (
             <LayoutGroup key={data.id} id={data.id}>  {/* text to use key instead of id and then see if it work to fixing the animation error in the console */}
