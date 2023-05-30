@@ -3,7 +3,7 @@ import { useState } from "react";
 import Svgimg from "../components/Svgimg";
 import arrowdown from "../assets/arrow-down-square-svgrepo-com.svg";
 
-const Glosariocarpet = () => {
+const Glosariocarpet = ({ data }) => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -57,17 +57,8 @@ const Glosariocarpet = () => {
             open === "green" ? "" : "hidden"
           }`}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-          aspernatur cumque quibusdam quia maiores aut id aperiam eligendi
-          blanditiis laboriosam, voluptatum ut vel inventore rem? Explicabo,
-          pariatur in labore harum repellendus porro est exercitationem ea, vel
-          odit vitae animi sapiente error! Culpa incidunt aperiam aspernatur,
-          corporis ab tenetur sequi magnam exercitationem maxime, sint ad quo
-          molestiae provident saepe, et iusto quaerat natus necessitatibus.
-          Atque cum veniam quaerat facere error! Voluptatibus nulla nobis optio
-          atque eaque excepturi aspernatur molestiae repellat sunt? Iste itaque,
-          id animi ex eaque tempore veritatis! Ipsam qui quae tenetur id
-          suscipit nisi blanditiis error vitae quisquam enim.
+          {data.hoja1.title}
+          {data.hoja1.text}
         </div>
       </motion.div>
 
@@ -119,17 +110,8 @@ const Glosariocarpet = () => {
             open === "pink" ? "" : "hidden"
           }`}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-          aspernatur cumque quibusdam quia maiores aut id aperiam eligendi
-          blanditiis laboriosam, voluptatum ut vel inventore rem? Explicabo,
-          pariatur in labore harum repellendus porro est exercitationem ea, vel
-          odit vitae animi sapiente error! Culpa incidunt aperiam aspernatur,
-          corporis ab tenetur sequi magnam exercitationem maxime, sint ad quo
-          molestiae provident saepe, et iusto quaerat natus necessitatibus.
-          Atque cum veniam quaerat facere error! Voluptatibus nulla nobis optio
-          atque eaque excepturi aspernatur molestiae repellat sunt? Iste itaque,
-          id animi ex eaque tempore veritatis! Ipsam qui quae tenetur id
-          suscipit nisi blanditiis error vitae quisquam enim.
+          {data.hoja2.title}
+          {data.hoja2.text}
         </div>
       </motion.div>
       <motion.div
@@ -179,17 +161,8 @@ const Glosariocarpet = () => {
             open === "rose" ? "" : "hidden"
           }`}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-          aspernatur cumque quibusdam quia maiores aut id aperiam eligendi
-          blanditiis laboriosam, voluptatum ut vel inventore rem? Explicabo,
-          pariatur in labore harum repellendus porro est exercitationem ea, vel
-          odit vitae animi sapiente error! Culpa incidunt aperiam aspernatur,
-          corporis ab tenetur sequi magnam exercitationem maxime, sint ad quo
-          molestiae provident saepe, et iusto quaerat natus necessitatibus.
-          Atque cum veniam quaerat facere error! Voluptatibus nulla nobis optio
-          atque eaque excepturi aspernatur molestiae repellat sunt? Iste itaque,
-          id animi ex eaque tempore veritatis! Ipsam qui quae tenetur id
-          suscipit nisi blanditiis error vitae quisquam enim.
+          {data.hoja3.title}
+          {data.hoja3.text}
         </div>
       </motion.div>
       <motion.div
@@ -236,17 +209,8 @@ const Glosariocarpet = () => {
             open === "purple" ? "" : "hidden"
           }`}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-          aspernatur cumque quibusdam quia maiores aut id aperiam eligendi
-          blanditiis laboriosam, voluptatum ut vel inventore rem? Explicabo,
-          pariatur in labore harum repellendus porro est exercitationem ea, vel
-          odit vitae animi sapiente error! Culpa incidunt aperiam aspernatur,
-          corporis ab tenetur sequi magnam exercitationem maxime, sint ad quo
-          molestiae provident saepe, et iusto quaerat natus necessitatibus.
-          Atque cum veniam quaerat facere error! Voluptatibus nulla nobis optio
-          atque eaque excepturi aspernatur molestiae repellat sunt? Iste itaque,
-          id animi ex eaque tempore veritatis! Ipsam qui quae tenetur id
-          suscipit nisi blanditiis error vitae quisquam enim.
+          {data.hoja4.title}
+          {data.hoja4.text}
         </div>
       </motion.div>
       <motion.div
@@ -293,17 +257,8 @@ const Glosariocarpet = () => {
             open === "red" ? "" : "hidden"
           }`}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-          aspernatur cumque quibusdam quia maiores aut id aperiam eligendi
-          blanditiis laboriosam, voluptatum ut vel inventore rem? Explicabo,
-          pariatur in labore harum repellendus porro est exercitationem ea, vel
-          odit vitae animi sapiente error! Culpa incidunt aperiam aspernatur,
-          corporis ab tenetur sequi magnam exercitationem maxime, sint ad quo
-          molestiae provident saepe, et iusto quaerat natus necessitatibus.
-          Atque cum veniam quaerat facere error! Voluptatibus nulla nobis optio
-          atque eaque excepturi aspernatur molestiae repellat sunt? Iste itaque,
-          id animi ex eaque tempore veritatis! Ipsam qui quae tenetur id
-          suscipit nisi blanditiis error vitae quisquam enim.
+          {data.hoja5.title}
+          {data.hoja5.text}
         </div>
       </motion.div>
       <motion.div
@@ -349,17 +304,8 @@ const Glosariocarpet = () => {
             open === "blue" ? "" : "hidden"
           }`}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
-          aspernatur cumque quibusdam quia maiores aut id aperiam eligendi
-          blanditiis laboriosam, voluptatum ut vel inventore rem? Explicabo,
-          pariatur in labore harum repellendus porro est exercitationem ea, vel
-          odit vitae animi sapiente error! Culpa incidunt aperiam aspernatur,
-          corporis ab tenetur sequi magnam exercitationem maxime, sint ad quo
-          molestiae provident saepe, et iusto quaerat natus necessitatibus.
-          Atque cum veniam quaerat facere error! Voluptatibus nulla nobis optio
-          atque eaque excepturi aspernatur molestiae repellat sunt? Iste itaque,
-          id animi ex eaque tempore veritatis! Ipsam qui quae tenetur id
-          suscipit nisi blanditiis error vitae quisquam enim.
+          {data.hoja6.title}
+          {data.hoja6.text}
         </div>
       </motion.div>
     </>

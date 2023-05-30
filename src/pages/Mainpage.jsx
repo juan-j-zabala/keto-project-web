@@ -1,11 +1,4 @@
-import { AnimatePresence, motion } from "framer-motion";
-import Navbar from "../components/Navbar";
-import Glosario from "./Glosario";
-import Gridbuttons from "./Gridbuttons";
-import Glosariomobil from "./Glosariomobil";
-import Fullnavbar from "../components/Fullnavbar";
 import { Outlet } from "react-router-dom";
-import Choose from "../components/Choose";
 
 const Mainpage = () => {
   return (
@@ -14,12 +7,7 @@ const Mainpage = () => {
         className="grid grid-rows-[repeat(21,1fr)] grid-cols-[repeat(28,1fr)] h-full gap-2 
       xl:grid-rows-[repeat(11,1fr)] xl:grid-cols-[repeat(22,1fr)] xl:gap-1 xl:rounded-3xl"
       >
-        {/* <Glosario /> */}
-        {/* <Gridbuttons /> */}
-        {/* <Glosariomobil/> */}
-        {/* <Choose/> */}
-        <Outlet/>
-        {/* <Fullnavbar/> */}
+        <Outlet /> {/* <Fullnavbar/><Glosario/><Gridbuttons/><Glosariomobil/><Choose/> estos componentes estan siendo renderizados por el Outlet con react router dom*/}
       </div>
     </div>
   );
