@@ -19,13 +19,13 @@ export const objectcssnavbar = [
     rutas: [
       {
         id: 1,
-        ruta: "",
+        ruta: "/tema",
         title: "party",
         css: "bg-red-600 flex justify-center items-center text-black col-start-4 col-end-[26] row-start-2 row-end-4 rounded-xl",
       },
       {
         id: 2,
-        ruta: "",
+        ruta: "/tema2",
         title: "white",
         css: "bg-yellow-600 flex justify-center items-center text-black col-start-4 col-end-[26] row-start-4 row-end-6 rounded-xl",
       },

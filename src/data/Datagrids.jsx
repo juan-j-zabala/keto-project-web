@@ -23,7 +23,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-red-600 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black ",
           title: "keto diet",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: `esto es un titulo`,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -46,7 +66,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-amber-400 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "tema 2",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -69,7 +109,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-lime-400 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -92,7 +152,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-emerald-500 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -115,7 +195,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-fuchsia-700 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -138,7 +238,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-rose-600 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -161,7 +281,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-red-600 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -184,7 +324,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-amber-400 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -207,7 +367,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-lime-400 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -230,7 +410,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-emerald-500 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -253,7 +453,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-fuchsia-700 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -276,14 +496,34 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-rose-600 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
     ],
   },
   {
     id: 2,
-    tema: "omega 3",
+    tema: "grasa saturada",
     url: "/tema2",
     objectcssgrid: [
       {
@@ -304,8 +544,28 @@ export const objectdatagrids = [
             "xl:rounded-xl xl:m-3 xl:col-start-8 xl:col-end-11 xl:row-start-3 xl:row-end-6",
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-red-600 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black ",
-          title: "keto diet",
-          Text: "",
+          title: "kketo diet",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: `esto no es un titulo`,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -327,8 +587,28 @@ export const objectdatagrids = [
             "xl:rounded-xl xl:m-3 xl:col-start-11 xl:col-end-[14] xl:row-start-3 xl:row-end-6",
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-amber-400 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
-          title: "tema lo que sea",
-          Text: "",
+          title: "tema 2",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -351,7 +631,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-lime-400 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -374,7 +674,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-emerald-500 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -397,7 +717,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-fuchsia-700 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -420,7 +760,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-rose-600 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -443,7 +803,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-red-600 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -466,7 +846,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-amber-400 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -489,7 +889,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-lime-400 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -512,7 +932,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-emerald-500 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -535,7 +975,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-fuchsia-700 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
       {
@@ -558,7 +1018,27 @@ export const objectdatagrids = [
           cssopen:
             "grid grid-rows-[repeat(11,1fr)] grid-cols-[repeat(28,1fr)] bg-rose-600 col-start-1 col-end-[29] row-start-1 row-end-4 m-2 lg:rounded-lg rounded-[3px] shadow-lg shadow-black",
           title: "",
-          Text: "",
+          content: [
+            {
+              id: 1,
+              data: {
+                title: ``,
+                text: "",
+
+                img: "",
+                imgcss: "",
+                alt: "",
+                width: "",
+                height: "",
+
+                url: "",
+                urltext: "",
+
+                br: null,
+                css: "",
+              },
+            },
+          ],
         },
       },
     ],

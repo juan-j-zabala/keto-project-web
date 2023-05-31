@@ -4,19 +4,9 @@ import close from "../assets/close-square-svgrepo-com.svg";
 import arrowup from "../assets/arrow-up-square-svgrepo-com.svg";
 import arrowdown from "../assets/arrow-down-square-svgrepo-com.svg";
 import Svgimg from "./Svgimg";
+import Multitask from "./Multitask";
 
-const Buttonofgrid = ({
-  // generalcss,
-  // screenxl,
-  // screenlg,
-  // screenmd,
-  // screensm,
-  // cssopen,
-  // title,
-  // text,
-  css,
-  id,
-}) => {
+const Buttonofgrid = ({ css, id }) => {
   const [seletid, setSeletid] = useState(null);
 
   return (
@@ -39,73 +29,15 @@ const Buttonofgrid = ({
             xl:col-start-5 xl:col-end-[23] xl:row-start-3 xl:row-end-[12] xl:my-3 xl:mx-3 xl:rounded-xl"
             layoutId={seletid}
           >
-            <motion.p
+            <motion.div
               className="
              lg:rounded-xl lg:p-3
             bg-neutral-950 col-start-1 col-end-[29] row-start-4 row-end-[22] p-2 text-white overflow-auto"
             >
-              {css.text} Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Temporibus porro neque voluptates amet. Vero rem voluptatum
-              laudantium officiis aperiam blanditiis dolorum aliquid ea
-              consectetur fugiat ex cum accusantium magni numquam doloremque
-              quidem, minus, repellendus repellat voluptas harum amet possimus!
-              Accusantium reprehenderit architecto deserunt nobis itaque
-              eligendi laboriosam saepe, ut veritatis ipsam temporibus commodi
-              animi expedita eaque. Ipsa aliquid quis cupiditate quidem hic
-              dicta sed nostrum magni pariatur qui incidunt beatae, autem
-              voluptate enim corporis suscipit quod inventore iste tenetur
-              dolorum aperiam, amet voluptas! Perspiciatis deserunt, eum
-              consequatur minima quos fugit tenetur unde, maiores enim
-              voluptatibus eius nemo cum assumenda nesciunt accusantium illo
-              nisi eos ab tempora consequuntur vel, repudiandae aut inventore?
-              Excepturi, quidem perferendis consequatur eos omnis neque minus
-              non placeat, amet nisi nam corporis dolorum! Vel mollitia a aut
-              cum totam omnis, quisquam esse fugit eligendi at fugiat illum
-              voluptate sit blanditiis laboriosam corporis possimus quo
-              exercitationem assumenda, vero aspernatur explicabo iusto! Nam,
-              esse possimus. Magnam aperiam iusto qui, quae molestias ipsam
-              vitae minus, earum, vero voluptas tenetur repudiandae impedit
-              fugiat iste reiciendis sint debitis ea non autem corporis! Esse,
-              numquam optio cumque harum aut reprehenderit blanditiis,
-              voluptatibus molestiae laborum minus sed suscipit in, expedita
-              consequatur asperiores placeat itaque natus. Modi dolores autem
-              consectetur nihil et, quaerat harum perferendis impedit rem eaque
-              in sapiente. Delectus repellendus, illum, facere doloremque quia
-              officia quidem eius tenetur aliquid quaerat alias, labore
-              consequatur! Modi alias consequuntur atque. Enim aliquid sed
-              beatae sunt eveniet doloribus atque, nemo amet minima! Nisi magnam
-              ducimus aperiam voluptatem ullam perferendis nemo, quasi assumenda
-              dignissimos iusto vel maiores. Ipsum aut tempore natus, sequi
-              saepe doloremque quia labore omnis, numquam ipsam, quod odio. Sint
-              inventore corrupti, facilis modi, neque dolor dolore aut numquam
-              dolores libero quod harum maiores exercitationem quia? Tempora
-              ratione minima earum perferendis. Eaque corporis nihil neque eum
-              sed maiores pariatur repellat asperiores cumque error? Nemo amet
-              asperiores fugit exercitationem beatae commodi ipsam, nisi
-              architecto, eius eos, praesentium dicta laboriosam nesciunt
-              corrupti impedit inventore! Earum a exercitationem, esse, maxime
-              facere ducimus nam non doloremque modi magnam numquam deserunt
-              fugiat iure. Expedita tempora quibusdam consequatur ullam animi
-              incidunt. Nihil molestiae neque quod aliquam, doloremque
-              consequuntur aperiam harum maxime consequatur id provident
-              nesciunt magni perspiciatis ducimus autem voluptatibus debitis
-              nostrum omnis voluptas labore dolorum quaerat sit illo quibusdam.
-              Possimus beatae molestiae fugiat quam quod cumque nesciunt quia,
-              voluptatem mollitia nemo incidunt commodi vero veniam tenetur
-              praesentium delectus nam necessitatibus fugit iure iusto tempore
-              blanditiis fuga? Non vero facilis nobis, debitis quia provident
-              repellat ut omnis, praesentium, et beatae dolor rerum consectetur.
-              Perferendis molestias commodi molestiae a quam accusantium beatae
-              libero, possimus perspiciatis deserunt hic quia nostrum quis
-              assumenda. Expedita numquam quaerat totam architecto possimus
-              sequi, illo modi ea distinctio ipsum, id vel? Aperiam nam eligendi
-              aspernatur. Et id sapiente qui possimus asperiores harum, ducimus
-              perferendis? Velit quia omnis mollitia, vero id voluptatem
-              provident blanditiis. Suscipit aut deserunt praesentium ipsa ad
-              nemo eaque commodi necessitatibus tempora vitae magni eum odio,
-              fuga possimus delectus rem aspernatur obcaecati voluptatibus.
-              Assumenda maxime consectetur inventore?
-            </motion.p>
+              {css.content.map((data) => {
+                return <Multitask key={data.id} data={data.data} />;
+              })}
+            </motion.div>
             <motion.div className={`${css.cssopen}`}>
               <motion.h1
                 className="
