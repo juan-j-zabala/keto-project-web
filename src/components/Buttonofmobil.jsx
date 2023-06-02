@@ -4,23 +4,13 @@ import Svgimg from "./Svgimg";
 import Navlink from "./Navlink";
 import close from "../assets/close-square-svgrepo-com.svg";
 
-const Buttonofmobil = ({
-  generalcss,
-  screenxl,
-  screenlg,
-  screenmd,
-  screensm,
-  dataimg = null,
-  title,
-  rutas,
-  id,
-}) => {
+const Buttonofmobil = ({ generalcss, dataimg = null, title, rutas, id }) => {
   const [seletid, setSeletid] = useState(null);
 
   return (
     <>
       <motion.div
-        className={`${generalcss} ${screenxl} ${screenlg} ${screenmd} ${screensm}`}
+        className={`${generalcss}`}
         layoutId={id}
         whileTap={{ scale: 0.7 }}
         whileFocus={{ scale: 0.9 }}

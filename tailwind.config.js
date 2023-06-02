@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         "black-keto": "#0F0E0E",
-        "orange-keto": "#FF6000",
+        "black-keto-1": "#0b0a0a",
+        "gray-keto": "#222222",
         "orange-dyeketo": "#FFA559",
         "beige-keto": "#FFE6C7"
         //modo oscuro 

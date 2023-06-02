@@ -14,11 +14,6 @@ const Buttonsmodalsmobil = () => {
                 id={data.id}
                 title={data.title}
                 generalcss={data.generalcss}
-                screenxl={data.screenxl}
-                screenlg={data.screenlg}
-                screenmd={data.screenmd}
-                screensm={data.screensm}
-                linkorbutton={data.navlinkjsx}
                 rutas={data.rutas}
                 dataimg={data.dataimg}
               />

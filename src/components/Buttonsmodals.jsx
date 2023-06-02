@@ -13,11 +13,8 @@ const Buttonsmodals = ({hidden=null}) => {
                 key={data.id}
                 title={data.title}
                 generalcss={data.generalcss}
-                modalopencssxl={data.modalopencssxl}
-                modalopencsslg={data.modalopencsslg}
                 modalopencss={data.modalopencss}
                 hidden={hidden}
-                linkorbutton={data.navlinkjsx}
                 rutas={data.rutas}
                 dataimg={data.dataimg}
               />

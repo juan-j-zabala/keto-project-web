@@ -7,8 +7,6 @@ import close from "../assets/close-square-svgrepo-com.svg";
 const Buttonmodal = ({
   title,
   generalcss,
-  modalopencssxl,
-  modalopencsslg,
   modalopencss,
   dataimg = null,
   rutas,
@@ -40,7 +38,7 @@ const Buttonmodal = ({
           <>
             <motion.div
               layoutId={isopen}
-              className={`${modalopencssxl} ${modalopencsslg} ${modalopencss}`}
+              className={`${modalopencss}`}
             >
               <motion.button
                 whileTap={{ scale: 0.9 }}
