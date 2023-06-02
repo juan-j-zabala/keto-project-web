@@ -5,64 +5,142 @@ export const objectcarpet = [
       url: "/glosario/carpet1",
       urlmobil: "/glosariomobil/carpet1",
       hoja1: {
-        title: "sssitulo prueba",
-        text: " esto es texto de prueva para ver si esto funciona ",
-        iconinfo: {
-          src: "",
-          alt: "",
-          width: "",
-          height: "",
-        },
+        content: [
+          {
+            id: 1,
+            data: {
+              title: `hola que tal como estan`,
+              text: "",
+
+              img: "",
+              imgcss: "",
+              alt: "",
+              width: "",
+              height: "",
+
+              url: "",
+              urltext: "",
+
+              br: null,
+              css: "",
+            },
+          },
+        ],
       },
       hoja2: {
-        title: "titulo prueba",
-        text: "esto es texto de prueva para ver si esto funciona",
-        iconinfo: {
-          src: "",
-          alt: "",
-          width: "",
-          height: "",
-        },
+        content: [
+          {
+            id: 1,
+            data: {
+              title: `esto si es un titulo`,
+              text: "",
+
+              img: "",
+              imgcss: "",
+              alt: "",
+              width: "",
+              height: "",
+
+              url: "",
+              urltext: "",
+
+              br: null,
+              css: "",
+            },
+          },
+        ],
       },
       hoja3: {
-        title: "titulo prueba",
-        text: "esto es texto de prueva para ver si esto funciona",
-        iconinfo: {
-          src: "",
-          alt: "",
-          width: "",
-          height: "",
-        },
+        content: [
+          {
+            id: 1,
+            data: {
+              title: `esto no es un titulo`,
+              text: "",
+
+              img: "",
+              imgcss: "",
+              alt: "",
+              width: "",
+              height: "",
+
+              url: "",
+              urltext: "",
+
+              br: null,
+              css: "",
+            },
+          },
+        ],
       },
       hoja4: {
-        title: "titulo prueba",
-        text: "esto es texto de prueva para ver si esto funciona",
-        iconinfo: {
-          src: "",
-          alt: "",
-          width: "",
-          height: "",
-        },
+        content: [
+          {
+            id: 1,
+            data: {
+              title: `esto no es un titulo`,
+              text: "",
+
+              img: "",
+              imgcss: "",
+              alt: "",
+              width: "",
+              height: "",
+
+              url: "",
+              urltext: "",
+
+              br: null,
+              css: "",
+            },
+          },
+        ],
       },
       hoja5: {
-        title: "titulo prueba",
-        text: "esto es texto de prueva para ver si esto funciona",
-        iconinfo: {
-          src: "",
-          alt: "",
-          width: "",
-          height: "",
-        },
+        content: [
+          {
+            id: 1,
+            data: {
+              title: `esto no es un titulo`,
+              text: "",
+
+              img: "",
+              imgcss: "",
+              alt: "",
+              width: "",
+              height: "",
+
+              url: "",
+              urltext: "",
+
+              br: null,
+              css: "",
+            },
+          },
+        ],
       },
       hoja6: {
-        title: "esto es un titulo de prueba para ver si esto funciona ",
-        text: "estoo es texto de prueva para ver si esto funciona",
-        iconinfo: {
-          src: "",
-          alt: "",
-          width: "",
-          height: "",
-        },
+        content: [
+          {
+            id: 1,
+            data: {
+              title: `esto no es un titulo`,
+              text: "",
+
+              img: "",
+              imgcss: "",
+              alt: "",
+              width: "",
+              height: "",
+
+              url: "",
+              urltext: "",
+
+              br: null,
+              css: "",
+            },
+          },
+        ],
       },
     },
   },

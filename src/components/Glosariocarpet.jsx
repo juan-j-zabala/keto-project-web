@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import Svgimg from "../components/Svgimg";
 import arrowdown from "../assets/arrow-down-square-svgrepo-com.svg";
+import Multitask from "./Multitask";
 
 const Glosariocarpet = ({ data }) => {
   const [open, setOpen] = useState(false);
@@ -57,8 +58,9 @@ const Glosariocarpet = ({ data }) => {
             open === "green" ? "" : "hidden"
           }`}
         >
-          {data.hoja1.title}
-          {data.hoja1.text}
+          {data.hoja1.content.map((data) => {
+            return <Multitask key={data.id} data={data.data}/>
+          })}
         </div>
       </motion.div>
 
@@ -110,8 +112,9 @@ const Glosariocarpet = ({ data }) => {
             open === "pink" ? "" : "hidden"
           }`}
         >
-          {data.hoja2.title}
-          {data.hoja2.text}
+          {data.hoja2.content.map((data) => {
+            return <Multitask key={data.id} data={data.data}/>
+          })}
         </div>
       </motion.div>
       <motion.div
@@ -161,8 +164,9 @@ const Glosariocarpet = ({ data }) => {
             open === "rose" ? "" : "hidden"
           }`}
         >
-          {data.hoja3.title}
-          {data.hoja3.text}
+          {data.hoja3.content.map((data) => {
+            return <Multitask key={data.id} data={data.data}/>
+          })}
         </div>
       </motion.div>
       <motion.div
@@ -209,8 +213,9 @@ const Glosariocarpet = ({ data }) => {
             open === "purple" ? "" : "hidden"
           }`}
         >
-          {data.hoja4.title}
-          {data.hoja4.text}
+          {data.hoja4.content.map((data) => {
+            return <Multitask key={data.id} data={data.data}/>
+          })}
         </div>
       </motion.div>
       <motion.div
@@ -257,8 +262,9 @@ const Glosariocarpet = ({ data }) => {
             open === "red" ? "" : "hidden"
           }`}
         >
-          {data.hoja5.title}
-          {data.hoja5.text}
+          {data.hoja5.content.map((data) => {
+            return <Multitask key={data.id} data={data.data}/>
+          })}
         </div>
       </motion.div>
       <motion.div
@@ -304,8 +310,9 @@ const Glosariocarpet = ({ data }) => {
             open === "blue" ? "" : "hidden"
           }`}
         >
-          {data.hoja6.title}
-          {data.hoja6.text}
+          {data.hoja6.content.map((data) => {
+            return <Multitask key={data.id} data={data.data}/>
+          })}
         </div>
       </motion.div>
     </>

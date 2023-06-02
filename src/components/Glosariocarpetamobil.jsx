@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import Svgimg from "../components/Svgimg";
 import arrowdown from "../assets/arrow-down-square-svgrepo-com.svg";
+import Multitask from "./Multitask";
 
 const Glosariocarpetamobil = ({ data }) => {
   const [open, setOpen] = useState(false);
@@ -58,7 +59,9 @@ const Glosariocarpetamobil = ({ data }) => {
             open === "green" ? "" : "hidden"
           }`}
         >
-          {data.hoja1.title}
+          {data.hoja1.content.map((data) => {
+            return <Multitask key={data.id} data={data.data}/>
+          })}
           {data.hoja1.text}
         </div>
       </motion.div>
@@ -112,7 +115,9 @@ const Glosariocarpetamobil = ({ data }) => {
             open === "pink" ? "" : "hidden"
           }`}
         >
-          {data.hoja2.title}
+          {data.hoja2.content.map((data) => {
+            return <Multitask key={data.id} data={data.data}/>
+          })}
           {data.hoja2.text}
         </div>
       </motion.div>
@@ -164,7 +169,9 @@ const Glosariocarpetamobil = ({ data }) => {
             open === "rose" ? "" : "hidden"
           }`}
         >
-          {data.hoja3.title}
+          {data.hoja3.content.map((data) => {
+            return <Multitask key={data.id} data={data.data}/>
+          })}
           {data.hoja3.text}
         </div>
       </motion.div>
@@ -213,7 +220,9 @@ const Glosariocarpetamobil = ({ data }) => {
             open === "purple" ? "" : "hidden"
           }`}
         >
-          {data.hoja4.title}
+          {data.hoja4.content.map((data) => {
+            return <Multitask key={data.id} data={data.data}/>
+          })}
           {data.hoja4.text}
         </div>
       </motion.div>
@@ -260,7 +269,9 @@ const Glosariocarpetamobil = ({ data }) => {
             open === "red" ? "" : "hidden"
           }`}
         >
-          {data.hoja5.title}
+          {data.hoja5.content.map((data) => {
+            return <Multitask key={data.id} data={data.data}/>
+          })}
           {data.hoja5.text}
         </div>
       </motion.div>
@@ -305,7 +316,9 @@ const Glosariocarpetamobil = ({ data }) => {
             open === "blue" ? "" : "hidden"
           }`}
         >
-          {data.hoja6.title}
+          {data.hoja6.content.map((data) => {
+            return <Multitask key={data.id} data={data.data}/>
+          })}
           {data.hoja6.text}
         </div>
       </motion.div>
