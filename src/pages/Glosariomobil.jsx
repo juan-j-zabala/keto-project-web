@@ -29,8 +29,8 @@ const Glosariomobil = () => {
             <motion.div
               layoutId={isopen}
               className="grid grid-rows-[repeat(21,1fr)] grid-cols-[repeat(28,1fr)] gap-2 z-0
-             bg-black-keto shadow-lg shadow-black col-start-2 col-end-[28] row-start-1 row-end-[22] rounded-[2px] my-1 
-            sm:bg-neutral-950 sm:col-start-2 sm:col-end-[28] sm:row-start-1 sm:row-end-[22]
+             bg-gray-keto shadow-lg shadow-black col-start-2 col-end-[28] row-start-1 row-end-[22] rounded-[2px] my-1 
+            sm:bg-gray-keto sm:col-start-2 sm:col-end-[28] sm:row-start-1 sm:row-end-[22]
             xl:hidden"
             >
               <motion.button

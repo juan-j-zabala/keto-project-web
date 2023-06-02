@@ -4,7 +4,7 @@ export const objectcssnavbar = [
     title: "UI Tema",
     generalcss:
       "flex justify-center items-center col-start-[20] col-end-[22] row-start-1 row-end-3 my-4 text-white gap-2",
-    modalopencss: `bg-neutral-950 max-lg:hidden gap-1 z-0
+    modalopencss: `bg-gray-keto max-lg:hidden gap-1 z-0
     lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[22] lg:rounded-[2px]
     xl:col-start-[20] xl:col-end-[23] xl:row-start-3 xl:row-end-[12] xl:my-3 xl:mr-3 xl:rounded-xl`,
     dataimg: {
@@ -45,7 +45,7 @@ export const objectcssnavbar = [
     title: "Glosario",
     generalcss:
       "flex justify-center items-center col-start-[17] col-end-[19] row-start-1 row-end-3 my-4 text-white gap-2",
-    modalopencss: `bg-neutral-950 max-lg:hidden gap-1 z-0
+    modalopencss: `bg-gray-keto max-lg:hidden gap-1 z-0
     lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[22] lg:rounded-[2px]
     xl:col-start-[20] xl:col-end-[23] xl:row-start-3 xl:row-end-[12] xl:my-3 xl:mr-3 xl:rounded-xl`,
     dataimg: {
@@ -86,7 +86,7 @@ export const objectcssnavbar = [
     title: "Guia",
     generalcss:
       "flex justify-center items-center col-start-[14] col-end-[16] row-start-1 row-end-3 my-4 text-white gap-2",
-    modalopencss: `bg-neutral-950 max-lg:hidden gap-1 z-0
+    modalopencss: `bg-gray-keto max-lg:hidden gap-1 z-0
     lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[22] lg:rounded-[2px]
     xl:col-start-[20] xl:col-end-[23] xl:row-start-3 xl:row-end-[12] xl:my-3 xl:mr-3 xl:rounded-xl`,
     dataimg: {
@@ -127,7 +127,7 @@ export const objectcssnavbar = [
     title: "Temario",
     generalcss:
       "flex justify-center items-center col-start-[11] col-end-[13] row-start-1 row-end-3 my-4 text-white gap-2",
-    modalopencss: `bg-neutral-950 max-lg:hidden gap-1 z-0
+    modalopencss: `bg-gray-keto max-lg:hidden gap-1 z-0
     lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[22] lg:rounded-[2px]
     xl:col-start-[20] xl:col-end-[23] xl:row-start-3 xl:row-end-[12] xl:my-3 xl:mr-3 xl:rounded-xl`,
     dataimg: {
@@ -168,7 +168,7 @@ export const objectcssnavbar = [
     title: "Home",
     generalcss:
       "flex justify-center items-center col-start-[8] col-end-[10] row-start-1 row-end-3 my-4 text-white gap-2",
-    modalopencss: `bg-neutral-950 max-lg:hidden gap-1 z-0
+    modalopencss: `bg-gray-keto max-lg:hidden gap-1 z-0
     lg:shadow-lg lg:shadow-black lg:grid lg:grid-rows-[repeat(21,1fr)] lg:grid-cols-[repeat(28,1fr)] lg:col-start-2 lg:col-end-[28] lg:row-start-3 lg:row-end-[22] lg:rounded-[2px]
     xl:col-start-[20] xl:col-end-[23] xl:row-start-3 xl:row-end-[12] xl:my-3 xl:mr-3 xl:rounded-xl`,
     dataimg: {

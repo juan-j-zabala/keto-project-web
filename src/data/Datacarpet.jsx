@@ -55,8 +55,8 @@ export const objectcarpet = [
         },
       },
       hoja6: {
-        title: "titulo prueba",
-        text: "esto es texto de prueva para ver si esto funciona",
+        title: "esto es un titulo de prueba para ver si esto funciona ",
+        text: "estoo es texto de prueva para ver si esto funciona",
         iconinfo: {
           src: "",
           alt: "",
