@@ -1,16 +1,15 @@
 import { motion, AnimatePresence, easeInOut } from "framer-motion";
 import { useState } from "react";
 import Glosariolistamobil from "../components/Glosariolistamobil";
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet,} from "react-router-dom";
 
 const Glosariomobil = () => {
-  const [isopen, setIsopen] = useState(null)
-  const location = useLocation()
-  console.log(location)
-
+  const [isopen, setIsopen] = useState(null);
+      
   return (
     <>
-      <Outlet/> {/*  eesto renderiza <Glosariocarpetamobil/> con react router dom */ }
+      <Outlet />
+      {/*  eesto renderiza <Glosariocarpetamobil/> con react router dom */}
       <motion.div
         whileTap={{ scale: 1.05 }}
         className="bg-white flex justify-center items-center col-start-2 col-end-[28] row-start-[21] row-end-[22] rounded-sm mb-1 z-0 outline
