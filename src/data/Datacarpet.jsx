@@ -3,7 +3,7 @@ export const objectcarpet = [
     id: 1,
     data: {
       url: "/glosario/carpet1",
-      urlmobil: "/glosariomobil/carpet1",
+      urlmobil: "/glosario/carpet1",
       hoja1: {
         content: [
           {

@@ -6,7 +6,6 @@ import {
 import Mainpage from "../pages/Mainpage";
 import Errorpage from "../pages/Errorpage";
 import Glosario from "../pages/Glosario";
-import Glosariomobil from "../pages/Glosariomobil";
 import Fullnavbar from "../components/Fullnavbar";
 import Gridbuttons from "../pages/Gridbuttons";
 import Glosariocarpet from "../components/Glosariocarpet";
@@ -24,7 +23,6 @@ export const router = createBrowserRouter(
           <>
             <Choose />
             <Glosario />
-            <Glosariomobil />
             <Fullnavbar />
           </>
         }
@@ -38,7 +36,6 @@ export const router = createBrowserRouter(
               <>
                 <Glosario />
                 <Gridbuttons objectcssgrid={data.objectcssgrid} />
-                <Glosariomobil />
                 <Fullnavbar />
               </>
             }
@@ -51,18 +48,7 @@ export const router = createBrowserRouter(
             <Route
               key={data.id}
               path={data.data.url}
-              element={<Glosariocarpet data={data.data} />}
-            />
-          );
-        })}
-      </Route>
-      <Route path="/glosariomobil" element={<Glosariomobil />}>
-        {objectcarpet.map((data) => {
-          return (
-            <Route
-              key={data.id}
-              path={data.data.urlmobil}
-              element={<Glosariocarpetamobil data={data.data} />}
+              element={<><Glosariocarpet data={data.data} /><Glosariocarpetamobil data={data.data} /></>}
             />
           );
         })}

@@ -12,7 +12,7 @@ const Glosariocarpet = ({ data }) => {
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
-        className={`bg-white xl:col-start-2  xl:row-start-1 xl:row-end-[22] xl:rounded-r-sm xl:rounded-l-xl z-0 shadow-lg shadow-black ${
+        className={`bg-white xl:col-start-2  xl:row-start-1 xl:row-end-[22] xl:rounded-r-sm xl:rounded-l-xl z-0 shadow-lg shadow-black max-xl:hidden ${
           open === "green" ||
           open === "pink" ||
           open === "rose" ||
@@ -67,7 +67,7 @@ const Glosariocarpet = ({ data }) => {
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
-        className={`bg-white xl:col-start-2  xl:row-start-1 xl:row-end-[22] xl:rounded-r-sm xl:rounded-l-xl z-0 shadow-lg shadow-black ${
+        className={`bg-white xl:col-start-2  xl:row-start-1 xl:row-end-[22] xl:rounded-r-sm xl:rounded-l-xl z-0 shadow-lg shadow-black max-xl:hidden ${
           open === "pink" ||
           open === "rose" ||
           open === "purple" ||
@@ -120,7 +120,7 @@ const Glosariocarpet = ({ data }) => {
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
-        className={`bg-white xl:col-start-2  xl:row-start-1 xl:row-end-[22] xl:rounded-r-sm xl:rounded-l-xl z-0 shadow-lg shadow-black ${
+        className={`bg-white xl:col-start-2  xl:row-start-1 xl:row-end-[22] xl:rounded-r-sm xl:rounded-l-xl z-0 shadow-lg shadow-black max-xl:hidden ${
           open === "rose" ||
           open === "purple" ||
           open === "red" ||
@@ -172,7 +172,7 @@ const Glosariocarpet = ({ data }) => {
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
-        className={`bg-white xl:col-start-2  xl:row-start-1 xl:row-end-[22] xl:rounded-r-sm xl:rounded-l-xl z-0 shadow-lg shadow-black ${
+        className={`bg-white xl:col-start-2  xl:row-start-1 xl:row-end-[22] xl:rounded-r-sm xl:rounded-l-xl z-0 shadow-lg shadow-black max-xl:hidden ${
           open === "purple" || open === "red" || open === "blue"
             ? "xl:col-end-[26]"
             : "xl:col-end-[9]"
@@ -221,7 +221,7 @@ const Glosariocarpet = ({ data }) => {
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
-        className={`bg-white xl:col-start-2  xl:row-start-1 xl:row-end-[22] xl:rounded-r-sm xl:rounded-l-xl z-0 shadow-lg shadow-black ${
+        className={`bg-white xl:col-start-2  xl:row-start-1 xl:row-end-[22] xl:rounded-r-sm xl:rounded-l-xl z-0 shadow-lg shadow-black max-xl:hidden ${
           open === "red" || open === "blue"
             ? "xl:col-end-[25]"
             : "xl:col-end-[8]"
@@ -270,7 +270,7 @@ const Glosariocarpet = ({ data }) => {
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
-        className={`bg-white xl:col-start-2  xl:row-start-1 xl:row-end-[22] xl:rounded-r-sm xl:rounded-l-xl z-0 shadow-lg shadow-black ${
+        className={`bg-white xl:col-start-2  xl:row-start-1 xl:row-end-[22] xl:rounded-r-sm xl:rounded-l-xl z-0 shadow-lg shadow-black max-xl:hidden ${
           open === "blue" ? "xl:col-end-[24]" : "xl:col-end-[7]"
         }`}
       >

@@ -10,7 +10,7 @@ const Glosariolistas = ({data}) => {
   return (
     <>
         <motion.div
-          className={`bg-white grid grid-rows-[repeat(21,1fr)] grid-cols-[repeat(28,1fr)] col-start-2 col-end-[28] my-1 rounded-xl overflow-hidden ${
+          className={`bg-white grid grid-rows-[repeat(21,1fr)] grid-cols-[repeat(28,1fr)] col-start-1 col-end-[29] mx-1 my-1 rounded-xl overflow-hidden ${
             selectedId ? data.listaopen : data.listaclose
           }`}
           layout

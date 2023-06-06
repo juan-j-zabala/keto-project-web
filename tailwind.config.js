@@ -15,7 +15,14 @@ export default {
         //modo oscuro 
         
         //modo dark neon 
-      } 
+      }, 
+      fontFamily: {
+        amotica: ["Amotic SC"],
+        kalam: ["Kalam"],
+        lilita: ["Lilita One"],
+        dyna: ["DynaPuff"],
+        concert: ["Concert One"],
+      }
     },
   },
   plugins: [],

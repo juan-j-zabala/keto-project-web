@@ -7,7 +7,7 @@ export const glosariolista = [
       lista: "Lista 1",
       palabra1: "j",
       url1: "/glosario/carpet1",
-      urlmobil1: "/glosariomobil/carpet1",
+      urlmobil1: "/glosario/carpet1",
       palabra2: "u",
       url2: "/tema",
       urlmobil2: "",
