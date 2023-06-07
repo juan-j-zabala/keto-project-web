@@ -22,6 +22,10 @@ export default {
         lilita: ["Lilita One"],
         dyna: ["DynaPuff"],
         concert: ["Concert One"],
+        text_me: ["Text Me One"],
+      },
+      boxShadow: {
+        "3xl": "0px -1px 12px 1px rgba(0,0,0,0.95)"
       }
     },
   },

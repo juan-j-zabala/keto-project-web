@@ -12,7 +12,7 @@ const Glosariocarpetamobil = ({ data }) => {
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
-        className={`bg-white col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-lg shadow-black xl:hidden
+        className={`bg-white col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-3xl shadow-black xl:hidden
          ${
            open === "green" ||
            open === "pink" ||
@@ -25,7 +25,7 @@ const Glosariocarpetamobil = ({ data }) => {
          }`}
       >
         <div className="bg-white relative bottom-6 left-[82.3%] w-[16.2%] rounded-md flex-col">
-          <div className="bg-white rounded-t-sm shadow-lg shadow-black flex justify-center">
+          <div className="bg-white rounded-t-sm shadow-3xl shadow-black flex justify-center">
             <motion.p
               className={`cursor-pointer ${open === "green" ? "hidden" : ""} `}
               animate={{ rotate: open === "green" ? 0 : 180 }}
@@ -69,7 +69,7 @@ const Glosariocarpetamobil = ({ data }) => {
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
-        className={`bg-white col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-lg shadow-black xl:hidden 
+        className={`bg-white col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-3xl shadow-black xl:hidden 
          ${
            open === "pink" ||
            open === "rose" ||
@@ -81,7 +81,7 @@ const Glosariocarpetamobil = ({ data }) => {
          }`}
       >
         <div className="bg-white relative bottom-6 left-[65.8%] w-[16.2%] rounded-md flex-col">
-          <div className="bg-white rounded-t-sm shadow-lg shadow-black flex justify-center">
+          <div className="bg-white rounded-t-sm shadow-3xl shadow-black flex justify-center">
             <motion.p
               className={`cursor-pointer ${open === "pink" ? "hidden" : ""} `}
               animate={{ rotate: open === "pink" ? 0 : 180 }}
@@ -124,7 +124,7 @@ const Glosariocarpetamobil = ({ data }) => {
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
-        className={`bg-white col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-lg shadow-black xl:hidden 
+        className={`bg-white col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-3xl shadow-black xl:hidden 
          ${
            open === "rose" ||
            open === "purple" ||
@@ -135,7 +135,7 @@ const Glosariocarpetamobil = ({ data }) => {
          }`}
       >
         <div className="bg-white relative bottom-6 left-[49.3%] w-[16.2%] rounded-md flex-col">
-          <div className="bg-white rounded-t-sm shadow-lg shadow-black flex justify-center">
+          <div className="bg-white rounded-t-sm shadow-3xl shadow-black flex justify-center">
             <motion.p
               className={`cursor-pointer ${open === "rose" ? "hidden" : ""}`}
               animate={{ rotate: open === "rose" ? 0 : 180 }}
@@ -178,7 +178,7 @@ const Glosariocarpetamobil = ({ data }) => {
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
-        className={`bg-white col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-lg shadow-black xl:hidden 
+        className={`bg-white col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-3xl shadow-black xl:hidden 
          ${
            open === "purple" || open === "red" || open === "blue"
              ? "row-start-5"
@@ -186,7 +186,7 @@ const Glosariocarpetamobil = ({ data }) => {
          }`}
       >
         <div className="bg-white relative bottom-6 left-[32.8%] w-[16.2%] rounded-md flex-col">
-          <div className="bg-white rounded-t-sm shadow-lg shadow-black flex justify-center">
+          <div className="bg-white rounded-t-sm shadow-3xl shadow-black flex justify-center">
             <motion.p
               className={`cursor-pointer ${open === "purple" ? "hidden" : ""}`}
               animate={{ rotate: open === "purple" ? 0 : 180 }}
@@ -229,13 +229,13 @@ const Glosariocarpetamobil = ({ data }) => {
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
-        className={`bg-white col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-lg shadow-black xl:hidden 
+        className={`bg-white col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-3xl shadow-black xl:hidden 
          ${
            open === "red" || open === "blue" ? "row-start-6" : "row-start-[19]"
          }`}
       >
         <div className="bg-white relative bottom-6 left-[16.4%] w-[16.2%] rounded-md flex-col">
-          <div className="bg-white rounded-t-sm shadow-lg shadow-black flex justify-center">
+          <div className="bg-white rounded-t-sm shadow-3xl shadow-black flex justify-center">
             <motion.p
               className={`cursor-pointer ${open === "red" ? "hidden" : ""}`}
               animate={{ rotate: open === "red" ? 0 : 180 }}
@@ -278,11 +278,11 @@ const Glosariocarpetamobil = ({ data }) => {
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
-        className={`bg-white col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-lg shadow-black xl:hidden 
+        className={`bg-white col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-3xl shadow-black xl:hidden 
          ${open === "blue" ? "row-start-7" : "row-start-[20]"}`}
       >
         <div className="bg-white relative bottom-6 w-[16.2%] rounded-sm flex-col">
-          <div className="bg-white rounded-t-sm shadow-lg shadow-black flex justify-center">
+          <div className="bg-white rounded-t-sm shadow-3xl shadow-black flex justify-center">
             <motion.p
               className={`cursor-pointer ${open === "blue" ? "hidden" : ""}`}
               animate={{ rotate: open === "blue" ? 0 : 180 }}
