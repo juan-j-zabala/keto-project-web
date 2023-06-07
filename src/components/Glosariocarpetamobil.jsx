@@ -1,11 +1,13 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useContext } from "react";
 import Svgimg from "../components/Svgimg";
 import arrowdown from "../assets/arrow-down-square-svgrepo-com.svg";
 import Multitask from "./Multitask";
+import { Context } from "../context/ContextProvider";
 
 const Glosariocarpetamobil = ({ data }) => {
-  const [open, setOpen] = useState(false);
+  const [open , setOpen] = useContext(Context)
+  // const [open, setOpen] = useState(false);
 
   return (
     <>
