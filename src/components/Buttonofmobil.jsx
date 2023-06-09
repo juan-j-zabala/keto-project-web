@@ -28,7 +28,7 @@ const Buttonofmobil = ({ generalcss, dataimg = null, title, rutas, id }) => {
       <AnimatePresence>
         {seletid ? (
           <motion.div
-            className="grid grid-rows-[repeat(21,1fr)] grid-cols-[repeat(28,1fr)] col-start-2 col-end-[28] row-start-2 row-end-[21] rounded-[3px] z-0 bg-white gap-1
+            className="grid grid-rows-[repeat(21,1fr)] grid-cols-[repeat(28,1fr)] col-start-2 col-end-[28] row-start-2 row-end-[21] rounded-[3px] z-0 bg-skin-layoutinverted gap-1
             xl:col-start-5 xl:col-end-[23] xl:row-start-3 xl:row-end-[12] xl:my-3 xl:mx-3 xl:rounded-xl"
             layoutId={seletid}
           >

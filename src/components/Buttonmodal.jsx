@@ -44,7 +44,7 @@ const Buttonmodal = ({
                 whileTap={{ scale: 0.9 }}
                 whileHover={{ scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 150 }}
-                className="bg-white text-black rounded-xl col-start-[8] col-end-[22] row-start-[19] row-end-[21] flex justify-center items-center"
+                className="bg-skin-layoutinverted text-skin-base rounded-xl col-start-[8] col-end-[22] row-start-[19] row-end-[21] flex justify-center items-center"
                 onClick={() => setIsopen(!isopen)}
               >
                 <Svgimg src={close} alt={"close"} width="40" height="40" />

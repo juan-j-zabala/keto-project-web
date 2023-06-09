@@ -30,15 +30,15 @@ const Buttonmodalmobil = () => {
             <motion.div
               layoutId={isopen}
               className="grid grid-rows-[repeat(21,1fr)] grid-cols-[repeat(28,1fr)] gap-2 z-0
-              bg-gray-keto shadow-lg shadow-black col-start-2 col-end-[28] row-start-3 row-end-[22] mb-[2px] rounded-[2px]
-              sm:bg-gray-keto sm:col-start-2 sm:col-end-[28] sm:row-start-3 sm:row-end-[22]
+              bg-skin-layout shadow-lg shadow-black col-start-2 col-end-[28] row-start-3 row-end-[22] mb-[2px] rounded-[2px]
+              sm:col-start-2 sm:col-end-[28] sm:row-start-3 sm:row-end-[22]
               lg:hidden"
             >
               <motion.button
                 whileTap={{ scale: 0.9 }}
                 whileHover={{ scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 150 }}
-                className="bg-white col-start-[11] col-end-[19] row-start-[19] row-end-[21] rounded-xl flex justify-center items-center"
+                className="bg-skin-layoutinverted col-start-[11] col-end-[19] row-start-[19] row-end-[21] rounded-xl flex justify-center items-center"
                 onClick={() => setIsopen(!isopen)}
               >
                 <Svgimg src={close} alt={"close"} width="40" height="40" />

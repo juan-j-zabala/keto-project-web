@@ -14,7 +14,7 @@ const Multitask = ({ data }) => {
   return (
     <>
       {data.title ? (
-        <h1 className={`${data.css}`}>{data.title}</h1>
+        <h1 className={`text-skin-base ${data.css}`}>{data.title}</h1>
       ) : data.text ? (
         <>{data.text}</>
       ) : data.img ? (
@@ -33,7 +33,7 @@ const Multitask = ({ data }) => {
           <AnimatePresence>
             {modalimg ? (
               <motion.div
-                className="absolute flex justify-center items-center bottom-0 right-0 bg-black w-full h-full bg-opacity-95"
+                className="absolute flex justify-center items-center bottom-0 right-0 bg-skin-layout2 w-full h-full bg-opacity-95"
                 layoutId={modalimg}
               >
                 <img
@@ -45,7 +45,7 @@ const Multitask = ({ data }) => {
                 />
                 <button
                   onClick={() => setModalimg(null)}
-                  className="bg-white rounded-lg absolute lg:right-3 lg:top-3
+                  className="bg-skin-layoutinverted rounded-lg absolute lg:right-3 lg:top-3
                   max-lg:bottom-3"
                 >
                   <Svgimg src={close} alt={"close"} width="40" height="40" />
@@ -59,7 +59,7 @@ const Multitask = ({ data }) => {
           onClick={() => {
             setOpen(data.hojacarpet), navigate(data.url);
           }}
-          className={`${data.css}`}
+          className={`text-skin-base ${data.css}`}
         >
           {data.urltext}
         </button>

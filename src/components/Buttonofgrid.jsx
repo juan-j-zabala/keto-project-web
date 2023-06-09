@@ -24,7 +24,7 @@ const Buttonofgrid = ({ css, id }) => {
       <AnimatePresence>
         {seletid ? (
           <motion.div
-            className="grid grid-rows-[repeat(21,1fr)] grid-cols-[repeat(28,1fr)] col-start-2 col-end-[28] row-start-3 row-end-[21] rounded-[3px] z-0 bg-gray-keto shadow-lg shadow-black
+            className="grid grid-rows-[repeat(21,1fr)] grid-cols-[repeat(28,1fr)] col-start-2 col-end-[28] row-start-3 row-end-[21] rounded-[3px] z-0 bg-skin-layout shadow-lg shadow-black
             sm:col-start-2 sm:col-end-[28] sm:row-start-3 sm:row-end-[20]
             xl:col-start-5 xl:col-end-[23] xl:row-start-1 xl:row-end-[12] xl:my-3 xl:mx-3 xl:rounded-xl"
             layoutId={seletid}
@@ -32,7 +32,7 @@ const Buttonofgrid = ({ css, id }) => {
             <motion.div
               className="
              lg:rounded-xl lg:p-3
-            bg-gray-keto col-start-1 col-end-[29] row-start-4 row-end-[22] p-2 text-white overflow-auto"
+            bg-skin-layout col-start-1 col-end-[29] row-start-4 row-end-[22] p-2 text-skin-inverted overflow-auto"
             >
               {css.content.map((data) => {
                 return <Multitask key={data.id} data={data.data} />;
@@ -41,7 +41,7 @@ const Buttonofgrid = ({ css, id }) => {
             <motion.div className={`${css.cssopen}`}>
               <motion.h1
                 className="
-                bg-black col-start-1 col-end-[14] row-start-2 row-end-[11] flex justify-center items-center mx-1 rounded-[3px] text-white
+                bg-skin-layout2 col-start-1 col-end-[14] row-start-2 row-end-[11] flex justify-center items-center mx-1 rounded-[3px] text-skin-inverted
                 lg:mx-1 lg:rounded-lg lg:col-start-1 lg:col-end-8 lg:row-start-2 lg:row-end-[11]
                 xl:mx-2 xl:rounded-xl xl:col-start-1 xl:col-end-8 xl:row-start-2 xl:row-end-[11]
               "

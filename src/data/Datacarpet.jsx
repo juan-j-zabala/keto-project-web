@@ -123,8 +123,8 @@ export const objectcarpet = [
           {
             id: 1,
             data: {
-              title: `esto no es un titulo`,
-              text: "",
+              title: ``,
+              text: "hola que tal",
 
               img: "",
               imgcss: "",
