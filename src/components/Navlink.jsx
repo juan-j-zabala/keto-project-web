@@ -1,7 +1,11 @@
 import { motion } from "framer-motion";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { Context } from "../context/ContextProvider";
 
 const Navlink = ({ ruta = null, title = null, css }) => {
+  const [, setThemecolor] = useContext(Context)
+
   return (
     <>
       {ruta ? (
@@ -16,14 +20,15 @@ const Navlink = ({ ruta = null, title = null, css }) => {
           </Link>
         </motion.h1>
       ) : (
-        <motion.h1
+        <motion.button
           whileTap={{ scale: 0.9 }}
           whileHover={{ scale: 1.05 }}
           // transition={{ type: "spring", stiffness: 150 }}
           className={`${css}`}
+          onClick={() => setThemecolor(title)}
         >
           {title}
-        </motion.h1>
+        </motion.button>
       )}
     </>
   );

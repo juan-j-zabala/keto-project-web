@@ -16,13 +16,13 @@ export const objectcssnavbar = [
     rutas: [
       {
         id: 1,
-        ruta: "/tema",
+        ruta: "",
         title: "party",
         css: "bg-skin-layoutinverted flex justify-center items-center text-skin-base col-start-4 col-end-[26] row-start-2 row-end-4 rounded-xl",
       },
       {
         id: 2,
-        ruta: "/tema2",
+        ruta: "",
         title: "white",
         css: "bg-skin-layoutinverted flex justify-center items-center text-skin-base col-start-4 col-end-[26] row-start-4 row-end-6 rounded-xl",
       },

@@ -35,4 +35,14 @@
     --color-layoutinverted: 36, 52, 3;
     --color-layoutcarpet: 55, 79, 5;
   }
+  .theme-dark {
+    --color-text-base: 0, 0, 0;
+    --color-text-inverted: 255, 255, 255;
+    --color-text-links: 255, 255, 255;
+    --color-background: 11, 10, 10;
+    --color-layout: 34, 34, 34;
+    --color-layout2: 0, 0, 0;
+    --color-layoutinverted: 255, 255, 255;
+    --color-layoutcarpet: 255, 255, 255;
+  }
 }
