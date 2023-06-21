@@ -14,7 +14,7 @@ const Multitask = ({ data }) => {
   return (
     <>
       {data.title ? (
-        <h1 className={`text-skin-base ${data.css}`}>{data.title}</h1>
+        <h1 className={`text-skin-base font-serif font-black text-xl ${data.css}`}>{data.title}</h1>
       ) : data.text ? (
         <>{data.text}</>
       ) : data.img ? (

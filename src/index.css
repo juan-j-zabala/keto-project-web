@@ -6,14 +6,14 @@
 
 @layer base {
   :root {
-    --color-text-base: 0, 0, 0;
-    --color-text-inverted: 255, 255, 255;
+    --color-text-base: 255, 255, 255;
+    --color-text-inverted: 0, 0, 0;
     --color-text-links: 255, 255, 255;
-    --color-background: 11, 10, 10;
-    --color-layout: 34, 34, 34;
-    --color-layout2: 0, 0, 0;
-    --color-layoutinverted: 255, 255, 255;
-    --color-layoutcarpet: 255, 255, 255;
+    --color-background: 235, 235, 235;
+    --color-layout: 146, 146, 146;
+    --color-layout2: 255, 255, 255;
+    --color-layoutinverted: 50, 50, 50;
+    --color-layoutcarpet: 40, 40, 40;
   }
   .theme-lofy {
     --color-text-base: 0, 0, 0;
@@ -23,17 +23,17 @@
     --color-layout: 24, 24, 24;
     --color-layout2: 0, 0, 0;
     --color-layoutinverted: 255, 250, 94 ;
-    --color-layoutcarpet: 255, 0, 255;
+    --color-layoutcarpet: 255, 250, 94;
   }
   .theme-party {
-    --color-text-base: 17, 24, 2;
-    --color-text-inverted: 17, 24, 2;
-    --color-text-links: 17, 24, 2;
-    --color-background: 179, 255, 23;
-    --color-layout: 36, 52, 3;
-    --color-layout2: 36, 52, 3;
-    --color-layoutinverted: 36, 52, 3;
-    --color-layoutcarpet: 55, 79, 5;
+    --color-text-base: 0, 0, 0;
+    --color-text-inverted: 255, 255, 255;
+    --color-text-links: 255, 255, 255;
+    --color-background: 11, 10, 10;
+    --color-layout: 34, 34, 34;
+    --color-layout2: 0, 0, 0;
+    --color-layoutinverted: 205, 0, 214 ;
+    --color-layoutcarpet: 205, 0, 214 ;
   }
   .theme-dark {
     --color-text-base: 0, 0, 0;

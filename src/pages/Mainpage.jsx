@@ -14,29 +14,33 @@ const Mainpage = () => {
     if (data) {
       setThemecolor(data);
     }
-  }, [])
-  
+  }, []);
+
   useEffect(() => {
     window.localStorage.setItem("theme", themecolor);
-  }, [themecolor])
+  }, [themecolor]);
 
-  console.log(themecolor, "color" )
+  console.log(themecolor, "color");
   console.log(savetheme, "hola");
   console.log(window.localStorage.getItem("theme"));
 
   const themes =
-    themecolor === "white"
+    themecolor === "party"
       ? "theme-party"
       : themecolor === "lofy"
       ? "theme-lofy"
       : themecolor === "black"
       ? "theme-dark"
-      : savetheme === "white"
+      : themecolor === "white"
+      ? ""
+      : savetheme === "party"
       ? "theme-party"
       : savetheme === "lofy"
       ? "theme-lofy"
       : savetheme === "black"
       ? "theme-dark"
+      : savetheme === "white"
+      ? ""
       : "";
 
   console.log(themes);

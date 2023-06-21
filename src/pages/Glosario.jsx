@@ -49,7 +49,7 @@ const Glosario = () => {
                 >
                   <motion.button
                     whileTap={{ scale: 1.05 }}
-                    className="bg-skin-layoutinverted col-start-[1] col-end-[29] row-start-[21] row-end-[22] rounded-sm flex justify-center items-center
+                    className="bg-skin-layoutinverted col-start-[1] col-end-[29] row-start-[21] row-end-[22] rounded-sm flex justify-center items-center outline
                 sm:row-start-[20] sm:mt-3"
                     onClick={() => setIsopen(null)}
                   >

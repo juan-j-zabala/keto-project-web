@@ -1,4 +1,4 @@
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, LayoutGroup, motion } from "framer-motion";
 import { useState } from "react";
 import close from "../assets/close-square-svgrepo-com.svg";
 import arrowup from "../assets/arrow-up-square-svgrepo-com.svg";
@@ -32,16 +32,18 @@ const Buttonofgrid = ({ css, id }) => {
             <motion.div
               className="
              lg:rounded-xl lg:p-3
-            bg-skin-layout col-start-1 col-end-[29] row-start-4 row-end-[22] p-2 text-skin-inverted overflow-auto"
+            bg-skin-layout font-mono font-light col-start-1 col-end-[29] row-start-4 row-end-[22] p-2 text-skin-inverted overflow-auto"
             >
               {css.content.map((data) => {
-                return <Multitask key={data.id} data={data.data} />;
+                return <LayoutGroup key={data.id} id={data.id}>
+                 <Multitask key={data.id} data={data.data} />
+                </LayoutGroup>
               })}
             </motion.div>
             <motion.div className={`${css.cssopen}`}>
               <motion.h1
                 className="
-                bg-skin-layout2 col-start-1 col-end-[14] row-start-2 row-end-[11] flex justify-center items-center mx-1 rounded-[3px] text-skin-inverted
+                bg-skin-layout2 font-sans font-extrabold  col-start-1 col-end-[14] row-start-2 row-end-[11] flex justify-center items-center mx-1 rounded-[3px] text-skin-inverted
                 lg:mx-1 lg:rounded-lg lg:col-start-1 lg:col-end-8 lg:row-start-2 lg:row-end-[11]
                 xl:mx-2 xl:rounded-xl xl:col-start-1 xl:col-end-8 xl:row-start-2 xl:row-end-[11]
               "
@@ -65,6 +67,7 @@ const Buttonofgrid = ({ css, id }) => {
                 <Svgimg src={arrowup} alt={"arowup"} width="40" height="40" />
               </motion.button>
               <motion.button
+              
                 className="
                 lg:col-start-[23] lg:col-end-[25] lg:row-start-2 lg:row-end-[11] lg:mx-3 lg:rounded-lg
                 col-start-[14] col-end-[19] row-start-2 row-end-[11] mx-1 rounded-[3px] flex justify-center items-center"

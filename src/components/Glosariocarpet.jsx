@@ -56,7 +56,7 @@ const Glosariocarpet = ({ data }) => {
           </div>
         </div>
         <div
-          className={`bg-skin-layoutcarpet text-skin-base w-3/4 h-[79%] ml-[25%] relative bottom-9 pl-36 pr-6 overflow-auto ${
+          className={`bg-skin-layoutcarpet font-mono text-sm text-skin-base w-3/4 h-[79%] ml-[25%] relative bottom-9 pl-36 pr-6 overflow-auto ${
             open === "green" ? "" : "hidden"
           }`}
         >
@@ -110,7 +110,7 @@ const Glosariocarpet = ({ data }) => {
           </div>
         </div>
         <div
-          className={`bg-skin-layoutcarpet text-skin-base w-3/4 h-[79%] ml-[25%] relative bottom-9 pl-36 pr-6 overflow-auto ${
+          className={`bg-skin-layoutcarpet font-mono text-sm text-skin-base w-3/4 h-[79%] ml-[25%] relative bottom-9 pl-36 pr-6 overflow-auto ${
             open === "pink" ? "" : "hidden"
           }`}
         >
@@ -162,7 +162,7 @@ const Glosariocarpet = ({ data }) => {
           </div>
         </div>
         <div
-          className={`bg-skin-layoutcarpet text-skin-base w-3/4 h-[83%] ml-[25%] relative bottom-9 pl-36 pr-6 overflow-auto ${
+          className={`bg-skin-layoutcarpet font-mono text-sm text-skin-base w-3/4 h-[83%] ml-[25%] relative bottom-9 pl-36 pr-6 overflow-auto ${
             open === "rose" ? "" : "hidden"
           }`}
         >
@@ -211,7 +211,7 @@ const Glosariocarpet = ({ data }) => {
           </div>
         </div>
         <div
-          className={`bg-skin-layoutcarpet text-skin-base w-3/4 h-[83%] ml-[25%] relative bottom-9 pl-36 pr-6 overflow-auto ${
+          className={`bg-skin-layoutcarpet font-mono text-sm text-skin-base w-3/4 h-[83%] ml-[25%] relative bottom-9 pl-36 pr-6 overflow-auto ${
             open === "purple" ? "" : "hidden"
           }`}
         >
@@ -260,7 +260,7 @@ const Glosariocarpet = ({ data }) => {
           </div>
         </div>
         <div
-          className={`bg-skin-layoutcarpet text-skin-base w-3/4 h-[83%] ml-[25%] relative bottom-9 pl-36 pr-6 overflow-auto ${
+          className={`bg-skin-layoutcarpet font-mono text-sm text-skin-base w-3/4 h-[83%] ml-[25%] relative bottom-9 pl-36 pr-6 overflow-auto ${
             open === "red" ? "" : "hidden"
           }`}
         >
@@ -308,7 +308,7 @@ const Glosariocarpet = ({ data }) => {
           </div>
         </div>
         <div
-          className={`bg-skin-layoutcarpet text-skin-base w-3/4 h-[83%] ml-[25%] relative bottom-9 pl-36 pr-6 overflow-auto ${
+          className={`bg-skin-layoutcarpet font-mono text-sm text-skin-base w-3/4 h-[83%] ml-[25%] relative bottom-9 pl-36 pr-6 overflow-auto ${
             open === "blue" ? "" : "hidden"
           }`}
         >
