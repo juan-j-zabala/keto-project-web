@@ -103,6 +103,24 @@ export const objectcssnavbarmobil = [
         title: "party",
         css: "bg-skin-layout2 flex justify-center items-center text-skin-base col-start-5 col-end-[25] row-start-2 row-end-4 rounded-[3px] text-skin-inverted",
       },
+      {
+        id: 1,
+        ruta: "",
+        title: "white",
+        css: "bg-skin-layout2 flex justify-center items-center text-skin-base col-start-5 col-end-[25] row-start-4 row-end-6 rounded-[3px] text-skin-inverted",
+      },
+      {
+        id: 1,
+        ruta: "",
+        title: "lofy",
+        css: "bg-skin-layout2 flex justify-center items-center text-skin-base col-start-5 col-end-[25] row-start-6 row-end-[8] rounded-[3px] text-skin-inverted",
+      },
+      {
+        id: 1,
+        ruta: "",
+        title: "black",
+        css: "bg-skin-layout2 flex justify-center items-center text-skin-base col-start-5 col-end-[25] row-start-[8] row-end-[10] rounded-[3px] text-skin-inverted",
+      },
     ],
   },
 ];

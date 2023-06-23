@@ -4,13 +4,14 @@ import Svgimg from "../components/Svgimg";
 import arrowdown from "../assets/arrow-down-square-svgrepo-com.svg";
 import Multitask from "./Multitask";
 import { Context } from "../context/ContextProvider";
+import Navbarcarpet from "./Navbarcarpet";
 
 const Glosariocarpet = ({ data }) => {
   const [open , setOpen] = useContext(Context)
-  // const [open, setOpen] = useState(false);
 
   return (
     <>
+    <Navbarcarpet/>
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}

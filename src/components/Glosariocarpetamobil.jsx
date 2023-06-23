@@ -4,13 +4,14 @@ import Svgimg from "../components/Svgimg";
 import arrowdown from "../assets/arrow-down-square-svgrepo-com.svg";
 import Multitask from "./Multitask";
 import { Context } from "../context/ContextProvider";
+import Navbarcarpetmobil from "./Navbarcarpetmobil";
 
 const Glosariocarpetamobil = ({ data }) => {
   const [open , setOpen] = useContext(Context)
-  // const [open, setOpen] = useState(false);
 
   return (
     <>
+    <Navbarcarpetmobil/>
       <motion.div
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
@@ -26,7 +27,7 @@ const Glosariocarpetamobil = ({ data }) => {
              : "row-start-[15]"
          }`}
       >
-        <div className="bg-skin-layoutcarpet relative bottom-6 left-[82.3%] w-[16.2%] rounded-md flex-col">
+        <div className={`bg-skin-layoutcarpet relative ${open === false ? "bottom-6" : "bottom-[4.9%]" } left-[82.3%] w-[16.2%] rounded-md flex-col`}>
           <div className="bg-skin-layoutcarpet rounded-t-sm shadow-3xl shadow-black flex justify-center">
             <motion.p
               className={`cursor-pointer ${open === "green" ? "hidden" : ""} `}
@@ -78,7 +79,7 @@ const Glosariocarpetamobil = ({ data }) => {
            open === "purple" ||
            open === "red" ||
            open === "blue"
-             ? "row-start-3"
+             ? "row-start-2 mt-[26px]"
              : "row-start-[16]"
          }`}
       >
@@ -132,7 +133,7 @@ const Glosariocarpetamobil = ({ data }) => {
            open === "purple" ||
            open === "red" ||
            open === "blue"
-             ? "row-start-4"
+             ? "row-start-3 mt-[26px]"
              : "row-start-[17]"
          }`}
       >
@@ -183,7 +184,7 @@ const Glosariocarpetamobil = ({ data }) => {
         className={`bg-skin-layoutcarpet col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-3xl shadow-black xl:hidden 
          ${
            open === "purple" || open === "red" || open === "blue"
-             ? "row-start-5"
+             ? "row-start-4 mt-[26px]"
              : "row-start-[18]"
          }`}
       >
@@ -233,7 +234,7 @@ const Glosariocarpetamobil = ({ data }) => {
         transition={{ layout: { duration: 1, type: "spring" } }}
         className={`bg-skin-layoutcarpet col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-3xl shadow-black xl:hidden 
          ${
-           open === "red" || open === "blue" ? "row-start-6" : "row-start-[19]"
+           open === "red" || open === "blue" ? "row-start-5 mt-[26px]" : "row-start-[19]"
          }`}
       >
         <div className="bg-skin-layoutcarpet relative bottom-6 left-[16.4%] w-[16.2%] rounded-md flex-col">
@@ -281,7 +282,7 @@ const Glosariocarpetamobil = ({ data }) => {
         layout
         transition={{ layout: { duration: 1, type: "spring" } }}
         className={`bg-skin-layoutcarpet col-start-2 col-end-[28] row-end-[22] mb-1 rounded-sm z-0 shadow-3xl shadow-black xl:hidden 
-         ${open === "blue" ? "row-start-7" : "row-start-[20]"}`}
+         ${open === "blue" ? "row-start-6 mt-[26px]" : "row-start-[20]"}`}
       >
         <div className="bg-skin-layoutcarpet relative bottom-6 w-[16.2%] rounded-sm flex-col">
           <div className="bg-skin-layoutcarpet rounded-t-sm shadow-3xl shadow-black flex justify-center">
