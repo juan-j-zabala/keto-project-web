@@ -4,10 +4,7 @@ export const Context = createContext();
 
 export const ContextProvider = (props) => {
   const [open, setOpen] = useState(null);
-  const [themecolor, setThemecolor] = useState(() => {
-    const themecurrent = window.localStorage.getItem("theme");
-    return themecurrent ? themecurrent : "";
-  });
+  const [themecolor, setThemecolor] = useState();
 
  
 

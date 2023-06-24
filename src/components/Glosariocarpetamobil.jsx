@@ -27,7 +27,7 @@ const Glosariocarpetamobil = ({ data }) => {
              : "row-start-[15]"
          }`}
       >
-        <div className={`bg-skin-layoutcarpet relative ${open === false ? "bottom-6" : "bottom-[4.9%]" } left-[82.3%] w-[16.2%] rounded-md flex-col`}>
+        <div className={`bg-skin-layoutcarpet relative ${open === false ? "bottom-6" : "bottom-[5%]" } left-[82.3%] w-[16.2%] rounded-md flex-col`}>
           <div className="bg-skin-layoutcarpet rounded-t-sm shadow-3xl shadow-black flex justify-center">
             <motion.p
               className={`cursor-pointer ${open === "green" ? "hidden" : ""} `}
