@@ -26,7 +26,7 @@ const Glosariocarpet = ({ data }) => {
             : "xl:col-end-[12]"
         }`}
       >
-        <div className="bg-skin-layoutcarpet relative left-10 top-[509px] h-[102px] rounded-xl flex justify-end items-center">
+        <div className="bg-skin-layoutcarpet relative left-10 top-[508px] h-[102px] rounded-xl flex justify-end items-center">
           <div className="bg-skin-layoutcarpet w-10 h-[102px] z-0"></div>
           <div className="bg-skin-layoutcarpet w-10 h-[102px] rounded-r-xl shadow-lg shadow-black flex justify-center items-center">
             <motion.p

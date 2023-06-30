@@ -67,7 +67,6 @@ const Buttonofgrid = ({ css, id }) => {
                 <Svgimg src={arrowup} alt={"arowup"} width="40" height="40" />
               </motion.button>
               <motion.button
-              
                 className="
                 lg:col-start-[23] lg:col-end-[25] lg:row-start-2 lg:row-end-[11] lg:mx-3 lg:rounded-lg
                 col-start-[14] col-end-[19] row-start-2 row-end-[11] mx-1 rounded-[3px] flex justify-center items-center"
