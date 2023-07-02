@@ -3,7 +3,7 @@ import { Context } from "../context/ContextProvider";
 import { motion } from "framer-motion";
 import { Link, useNavigate } from "react-router-dom";
 import back from "../assets/back-entrance-exit-logout-quit-svgrepo-com.svg";
-import next from "../assets/back-entrance-black-exit-logout-quit-svgrepo-com3.svg";
+import next from "../assets/back-entrance-inverted-exit-logout-quit-svgrepo-com.svg";
 import homewhite from "../assets/home-house-svgrepo-com.svg";
 import Svgimg from "./Svgimg";
 

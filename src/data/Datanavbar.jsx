@@ -196,12 +196,6 @@ export const objectcssnavbar = [
         title: "next",
         css: "bg-skin-layoutinverted flex justify-center items-center text-skin-base col-start-4 col-end-[26] row-start-6 row-end-[8] rounded-xl",
       },
-      {
-        id: 4,
-        ruta: "",
-        title: "",
-        css: "bg-skin-layoutinverted flex justify-center items-center text-skin-base col-start-4 col-end-[26] row-start-[8] row-end-[10] rounded-xl",
-      },
     ],
   },
 ];

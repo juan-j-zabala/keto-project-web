@@ -13,16 +13,23 @@ export const objectcssnavbarmobil = [
     rutas: [
       {
         id: 1,
-        ruta: "",
-        title: "lofyy",
+        ruta: "/",
+        title: "Home",
         css: "bg-skin-layout2 flex justify-center items-center text-skin-base col-start-5 col-end-[25] row-start-2 row-end-4 rounded-[3px] text-skin-inverted",
       },
       {
         id: 2,
-        ruta: "",
-        title: "dark",
+        ruta: -1,
+        title: "Back",
         css: "bg-skin-layout2 flex justify-center items-center text-skin-base col-start-5 col-end-[25] row-start-4 row-end-6 rounded-[3px] text-skin-inverted",
       },
+      {
+        id: 3,
+        ruta: 1,
+        title: "Next",
+        css: "bg-skin-layout2 flex justify-center items-center text-skin-base col-start-5 col-end-[25] row-start-6 row-end-[8] rounded-[3px] text-skin-inverted",
+      },
+
     ],
   },
   {
@@ -40,7 +47,7 @@ export const objectcssnavbarmobil = [
       {
         id: 1,
         ruta: "",
-        title: "party",
+        title: "",
         css: "bg-skin-layout2 flex justify-center items-center text-skin-base col-start-5 col-end-[25] row-start-2 row-end-4 rounded-[3px] text-skin-inverted",
       },
     ],
@@ -60,7 +67,7 @@ export const objectcssnavbarmobil = [
       {
         id: 1,
         ruta: "",
-        title: "party",
+        title: "",
         css: "bg-skin-layout2 flex justify-center items-center text-skin-base col-start-5 col-end-[25] row-start-2 row-end-4 rounded-[3px] text-skin-inverted",
       },
     ],
@@ -79,8 +86,14 @@ export const objectcssnavbarmobil = [
     rutas: [
       {
         id: 1,
-        ruta: "",
-        title: "party",
+        ruta: "/glosario/carpet1",
+        title: "Lista 3",
+        css: "bg-skin-layout2 flex justify-center items-center text-skin-base col-start-5 col-end-[25] row-start-2 row-end-4 rounded-[3px] text-skin-inverted",
+      },
+      {
+        id: 2,
+        ruta: "/glosario/carpet2",
+        title: "Lista 2",
         css: "bg-skin-layout2 flex justify-center items-center text-skin-base col-start-5 col-end-[25] row-start-2 row-end-4 rounded-[3px] text-skin-inverted",
       },
     ],

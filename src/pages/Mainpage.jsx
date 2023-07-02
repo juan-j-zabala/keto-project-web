@@ -20,10 +20,6 @@ const Mainpage = () => {
     window.localStorage.setItem("theme", themecolor);
   }, [themecolor]);
 
-  console.log(themecolor, "color");
-  console.log(savetheme, "hola");
-  console.log(window.localStorage.getItem("theme"));
-
   const themes =
     themecolor === "party"
       ? "theme-party"
@@ -43,7 +39,6 @@ const Mainpage = () => {
       ? ""
       : "";
 
-  console.log(themes);
   return (
     <div className={`mb-0 ml-0 w-full h-screen bg-skin-background ${themes}`}>
       <div
