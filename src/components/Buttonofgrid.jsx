@@ -32,12 +32,14 @@ const Buttonofgrid = ({ css, id }) => {
             <motion.div
               className="
              lg:rounded-xl lg:p-3
-            bg-skin-layout font-mono font-light col-start-1 col-end-[29] row-start-4 row-end-[22] p-2 text-skin-inverted overflow-auto"
+            bg-skin-layout font-mono font-light col-start-1 col-end-[29] row-start-4 row-end-[22] p-2 text-skin-inverted overflow-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-black"
             >
               {css.content.map((data) => {
-                return <LayoutGroup key={data.id} id={data.id}>
-                 <Multitask key={data.id} data={data.data} />
-                </LayoutGroup>
+                return (
+                  <LayoutGroup key={data.id} id={data.id}>
+                    <Multitask key={data.id} data={data.data} />
+                  </LayoutGroup>
+                );
               })}
             </motion.div>
             <motion.div className={`${css.cssopen}`}>

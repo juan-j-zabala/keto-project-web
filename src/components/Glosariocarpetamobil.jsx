@@ -58,7 +58,7 @@ const Glosariocarpetamobil = ({ data }) => {
           <div className="bg-skin-layoutcarpet h-5 z-0"></div>
         </div>
         <div
-          className={`bg-skin-layoutcarpet h-[91%] relative bottom-9 p-3 overflow-auto text-skin-base ${
+          className={`bg-skin-layoutcarpet h-[91%] relative bottom-9 p-3 overflow-auto text-skin-base scrollbar-none ${
             open === "green" ? "" : "hidden"
           }`}
         >
@@ -114,7 +114,7 @@ const Glosariocarpetamobil = ({ data }) => {
           <div className="bg-skin-layoutcarpet h-5 z-0"></div>
         </div>
         <div
-          className={`bg-skin-layoutcarpet h-[91%] relative bottom-9 p-3 overflow-auto text-skin-base ${
+          className={`bg-skin-layoutcarpet h-[91%] relative bottom-9 p-3 overflow-auto text-skin-base scrollbar-none ${
             open === "pink" ? "" : "hidden"
           }`}
         >
@@ -168,7 +168,7 @@ const Glosariocarpetamobil = ({ data }) => {
           <div className="bg-skin-layoutcarpet h-5 z-0"></div>
         </div>
         <div
-          className={`bg-skin-layoutcarpet h-[91%] relative bottom-9 p-3 overflow-auto text-skin-base ${
+          className={`bg-skin-layoutcarpet h-[91%] relative bottom-9 p-3 overflow-auto text-skin-base scrollbar-none ${
             open === "rose" ? "" : "hidden"
           }`}
         >
@@ -219,7 +219,7 @@ const Glosariocarpetamobil = ({ data }) => {
           <div className="bg-skin-layoutcarpet h-5 z-0"></div>
         </div>
         <div
-          className={`bg-skin-layoutcarpet h-[91%] relative bottom-9 p-3 overflow-auto text-skin-base ${
+          className={`bg-skin-layoutcarpet h-[91%] relative bottom-9 p-3 overflow-auto text-skin-base scrollbar-none ${
             open === "purple" ? "" : "hidden"
           }`}
         >
@@ -268,7 +268,7 @@ const Glosariocarpetamobil = ({ data }) => {
           <div className="bg-skin-layoutcarpet h-5 z-0"></div>
         </div>
         <div
-          className={`bg-skin-layoutcarpet h-[91%] relative bottom-9 p-3 overflow-auto text-skin-base ${
+          className={`bg-skin-layoutcarpet h-[91%] relative bottom-9 p-3 overflow-auto text-skin-base scrollbar-none ${
             open === "red" ? "" : "hidden"
           }`}
         >
@@ -315,7 +315,7 @@ const Glosariocarpetamobil = ({ data }) => {
           <div className="bg-skin-layoutcarpet h-3 z-0"></div>
         </div>
         <div
-          className={`bg-skin-layoutcarpet h-[91%] relative bottom-9 p-3 overflow-auto text-skin-base ${
+          className={`bg-skin-layoutcarpet h-[91%] relative bottom-9 p-3 overflow-auto text-skin-base scrollbar-none ${
             open === "blue" ? "" : "hidden"
           }`}
         >
