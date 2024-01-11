@@ -85,7 +85,7 @@ export const objectdatagrids = [
               id: 2,
               data: {
                 title: ``,
-                text: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet
+                text: `https://z-library.se/book/5935051/93bf7f/the-psychology-of-money.html?dsource=recommend Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet
                 dolorem suscipit placeat id excepturi? Itaque labore quibusdam a
                 laudantium quaerat doloribus facilis. Fuga quae eligendi, minima
                 alias aspernatur mollitia cumque consectetur aliquid, ex maiores
